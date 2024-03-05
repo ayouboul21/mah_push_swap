@@ -20,7 +20,7 @@ PRINTF_LIB = $(PRINTF_DIR)/libftprintf.a
 %.o: %.c push_swap.h
 	@$(CC) $(CFLAGS) -c -o $@ $<
 
-%_bonus.o: %_bonus.c checker_bonus.h get_next_line.h
+%_bonus.o: %_bonus.c checker_bonus.h
 	@$(CC) $(CFLAGS) -c -o $@ $<
 
 all: pre ${NAME}
