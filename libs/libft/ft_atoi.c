@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include "stdio.h"
 
 static void	find_sign(size_t *i, int *sign, const char *str)
 {
